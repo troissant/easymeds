@@ -1,0 +1,299 @@
+{
+  "restaurants": [
+    {
+      "id": "drogaraia",
+      "name": "DrogaRaia",
+      "category": "Farmácia",
+      "deliveryEstimate": "25m",
+      "rating": 4.9,
+      "imagePath": "assets/img/farmacias/drogaraia.jpg",
+      "about": "Droga Raia tem mais de 600 lojas espalhadas pelo Brasil e faz parte do grupo RD, com mais de 1.400 lojas.",
+      "hours": "Funciona de segunda à sexta, de 8h às 23h"
+    },
+    {
+      "id": "drogasil",
+      "name": "Drogasil",
+      "category": "Farmácia",
+      "deliveryEstimate": "100m",
+      "rating": 4.5,
+      "imagePath": "assets/img/farmacias/drogasil.png",
+      "about": "Nascida no coração de São Paulo, na Rua José Bonifácio, a Drogasil começou a sua história.",
+      "hours": "Funciona todos os dias, de 10h às 22h"
+    }
+  ],
+  "menu": [
+    {
+      "id": "CIMEGRIPE",
+      "imagePath": "assets/img/farmacias/cimegripe.jpg",
+      "name": "CIMEGRIPE",
+      "description": "20 Cápsulas. PARACETAMOL,MALEATO DE CLORFENAMINA,CLORIDRATO DE FENILEFRINA",
+      "price": 8.7,
+      "restaurantId": "drogaraia"
+    },
+    {
+      "id": "BENEGRIP",
+      "imagePath": "assets/img/farmacias/benegrip.png",
+      "name": "BENEGRIP",
+      "description": "20 Comprimidos. DIPIRONA SODICA,MALEATO DE CLORFENIRAMINA,CAFEINA",
+      "price": 9.5,
+      "restaurantId": "drogaraia"
+    },
+    {
+      "id": "DIPIRONA",
+      "imagePath": "assets/img/farmacias/dipirona.jpg",
+      "name": "DIPIRONA SÓDICA 500MG",
+      "description": "10 Comprimidos",
+      "price": 15.9,
+      "restaurantId": "drogaraia"
+    },
+    {
+      "id": "CIMEGRIPE",
+      "imagePath": "assets/img/farmacias/cimegripe.jpg",
+      "name": "CIMEGRIPE",
+      "description": "20 Cápsulas. PARACETAMOL,MALEATO DE CLORFENAMINA,CLORIDRATO DE FENILEFRINA",
+      "price": 8.7,
+      "restaurantId": "drogasil"
+    },
+    {
+      "id": "BENEGRIP",
+      "imagePath": "assets/img/farmacias/benegrip.png",
+      "name": "BENEGRIP",
+      "description": "20 Comprimidos. DIPIRONA SODICA,MALEATO DE CLORFENIRAMINA,CAFEINA",
+      "price": 9.5,
+      "restaurantId": "drogasil"
+    },
+    {
+      "id": "DIPIRONA",
+      "imagePath": "assets/img/farmacias/dipirona.jpg",
+      "name": "DIPIRONA SÓDICA 500MG",
+      "description": "10 Comprimidos",
+      "price": 15.9,
+      "restaurantId": "drogasil"
+    }
+  ],
+  "reviews": [
+    {
+      "name": "Julia",
+      "date": "2017-01-23T18:25:43",
+      "rating": 4.5,
+      "comments": "Tudo muito bom, entrega no tempo certo",
+      "restaurantId": "drogaraia"
+    },
+    {
+      "name": "Aline",
+      "date": "2016-12-12T18:25:43",
+      "rating": 3,
+      "comments": "NÃO recomendo.",
+      "restaurantId": "drogaraia"
+    },
+    {
+      "name": "Renata",
+      "date": "2016-12-12T18:25:43",
+      "rating": 2,
+      "comments": "Não foi muito agradável",
+      "restaurantId": "drogaraia"
+    },
+    {
+      "name": "Renata",
+      "date": "2016-12-12T18:25:43",
+      "rating": 5,
+      "comments": "Nunca deixou na mão, entregou super rápido.",
+      "restaurantId": "drogaraia"
+    },
+    {
+      "name": "Daniela",
+      "date": "2017-01-23T18:25:43",
+      "rating": 4,
+      "comments": "Muito bom! Já pedi diversas vezes sempre bom!",
+      "restaurantId": "drogaraia"
+    },
+    {
+      "name": "Eric",
+      "date": "2017-01-23T18:25:43",
+      "rating": 4.5,
+      "comments": "Excelente opção! Recomendo!",
+      "restaurantId": "drogasil"
+    },
+    {
+      "name": "Amanda",
+      "date": "2017-02-02T18:25:43",
+      "rating": 2.5,
+      "comments": "Demorou muito!",
+      "restaurantId": "drogasil"
+    },
+    {
+      "name": "Carla",
+      "date": "2016-12-12T18:25:43",
+      "rating": 4.8,
+      "comments": "Tudo perfeito. Entrega, embalagem.. Resultado? Melhor custo beneficio",
+      "restaurantId": "drogasil"
+    },
+    {
+      "name": "Rodrigo",
+      "date": "2016-12-12T18:25:43",
+      "rating": 4,
+      "comments": "Muito rápida a entrega, mas é caro.",
+      "restaurantId": "drogasil"
+    },
+    {
+      "name": "André",
+      "date": "2016-12-12T18:25:43",
+      "rating": 4.5,
+      "comments": "Excelente como sempre!",
+      "restaurantId": "coffee-corner"
+    },
+    {
+      "name": "João",
+      "date": "2017-01-23T18:25:43",
+      "rating": 5,
+      "comments": "Excelente. Fiz o pedido com outro endereço e quando vi o erro liguei avisando. O motoqueiro cortou a cidade todinha e a remédio chegou. Estou sempre pedindo e recomendando",
+      "restaurantId": "drogasil"
+    }
+  ],
+  "orders": [
+    {
+      "name": "Victor Martins",
+      "email": "victor.martins09@icloud.com",
+      "emailConfirmation": "victor.martins09@icloud.com",
+      "address": "Rua Renato Rinaldi",
+      "number": "650",
+      "optionalAddress": "apto 253",
+      "paymentOption": "DEB",
+      "orderItems": [
+        {
+          "quantity": 1,
+          "menuId": "cup-cake"
+        }
+      ],
+      "id": 1
+    },
+    {
+      "name": "Victor Martins",
+      "email": "victor.martins09@icloud.com",
+      "emailConfirmation": "victor.martins09@icloud.com",
+      "address": "Rua Renato Rinaldi",
+      "number": "650",
+      "optionalAddress": "apto 253",
+      "paymentOption": "MON",
+      "orderItems": [
+        {
+          "quantity": 2,
+          "menuId": "CIMEGRIPE"
+        }
+      ],
+      "id": 2
+    },
+    {
+      "name": "Victor Martins",
+      "email": "victor.martins09@icloud.com",
+      "emailConfirmation": "victor.martins09@icloud.com",
+      "address": "Renato Rinaldi",
+      "number": "650",
+      "optionalAddress": "6565",
+      "paymentOption": "MON",
+      "orderItems": [
+        {
+          "quantity": 1,
+          "menuId": "CIMEGRIPE"
+        },
+        {
+          "quantity": 1,
+          "menuId": "BENEGRIP"
+        }
+      ],
+      "id": 3
+    },
+    {
+      "name": "qeweqwjehkqjw''",
+      "email": "victor.martin@icloud.com",
+      "emailConfirmation": "victor.martin@icloud.com",
+      "address": "dksjdalkjsdlakj",
+      "number": "98",
+      "optionalAddress": "asd",
+      "paymentOption": "MON",
+      "orderItems": [
+        {
+          "quantity": 2,
+          "menuId": "CIMEGRIPE"
+        }
+      ],
+      "id": 4
+    },
+    {
+      "name": "Victor Martins",
+      "email": "victor.martins@icloud.com",
+      "emailConfirmation": "victor.martins@icloud.com",
+      "address": "Rua Renato Rinaldi",
+      "number": "650",
+      "optionalAddress": "ap 253",
+      "paymentOption": "MON",
+      "orderItems": [
+        {
+          "quantity": 1,
+          "menuId": "CIMEGRIPE"
+        },
+        {
+          "quantity": 1,
+          "menuId": "BENEGRIP"
+        }
+      ],
+      "id": 5
+    },
+    {
+      "name": "Victor Martins",
+      "email": "victor.martins09@icloud.com",
+      "emailConfirmation": "victor.martins09@icloud.com",
+      "address": "Rua da Consolação",
+      "number": "986",
+      "optionalAddress": "",
+      "paymentOption": "MON",
+      "orderItems": [
+        {
+          "quantity": 1,
+          "menuId": "DIPIRONA"
+        },
+        {
+          "quantity": 1,
+          "menuId": "CIMEGRIPE"
+        }
+      ],
+      "id": 6
+    },
+    {
+      "name": "klkejlk",
+      "email": "fsdkfjsldfj2@okd.com",
+      "emailConfirmation": "fsdkfjsldfj2@okd.com",
+      "address": "dsfsd",
+      "number": "222",
+      "optionalAddress": "",
+      "paymentOption": "MON",
+      "orderItems": [
+        {
+          "quantity": 2,
+          "menuId": "CIMEGRIPE"
+        }
+      ],
+      "id": 7
+    },
+    {
+      "name": "Victor Martins",
+      "email": "victor.martins09@icloud.com",
+      "emailConfirmation": "victor.martins09@icloud.com",
+      "address": "Consolação",
+      "number": "987",
+      "optionalAddress": "",
+      "paymentOption": "MON",
+      "orderItems": [
+        {
+          "quantity": 1,
+          "menuId": "DIPIRONA"
+        },
+        {
+          "quantity": 1,
+          "menuId": "CIMEGRIPE"
+        }
+      ],
+      "id": 8
+    }
+  ]
+}
