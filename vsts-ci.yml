@@ -1,16 +1,16 @@
-# Starter pipeline
-# Start with a minimal pipeline that you can customize to build and deploy your code.
-# Add steps that build, run tests, deploy, and more:
-# https://aka.ms/yaml
-
-pool:
-  vmImage: 'Ubuntu 16.04'
-
-steps:
-- script: echo Hello, world!
-  displayName: 'Run a one-line script'
-
-- script: |
-    echo Add other tasks to build, test, and deploy your project.
-    echo See https://aka.ms/yaml
-  displayName: 'Run a multi-line script'
+# Node.js with Angular	
+# Build a Node.js application that uses Angular.	
+# Add steps that analyze code, save build artifacts, deploy, and more:	
+# https://docs.microsoft.com/vsts/pipelines/languages/javascript	
+ pool:	
+  vmImage: 'Ubuntu 16.04'	
+ steps:	
+- task: NodeTool@0	
+  inputs:	
+    versionSpec: '8.x'	
+  displayName: 'Install Node.js'	
+ - script: |	
+    npm install -g @angular/cli	
+    npm install	
+    ng build --prod	
+  displayName: 'npm install and build'
