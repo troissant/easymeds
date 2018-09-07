@@ -11,9 +11,7 @@
       "assets": [
         "assets",
         "favicon.ico",
-        "web.config",
-        "db.json",
-        "server.js"
+        "web.config"
       ],
       "index": "index.html",
       "main": "main.ts",
