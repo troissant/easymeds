@@ -1,5 +1,5 @@
 {
-  "restaurants": [
+  "drugstores": [
     {
       "id": "drogaraia",
       "name": "DrogaRaia",
@@ -28,7 +28,7 @@
       "name": "CIMEGRIPE",
       "description": "20 Cápsulas. PARACETAMOL,MALEATO DE CLORFENAMINA,CLORIDRATO DE FENILEFRINA",
       "price": 8.7,
-      "restaurantId": "drogaraia"
+      "drugstoreId": "drogaraia"
     },
     {
       "id": "BENEGRIP",
@@ -36,7 +36,7 @@
       "name": "BENEGRIP",
       "description": "20 Comprimidos. DIPIRONA SODICA,MALEATO DE CLORFENIRAMINA,CAFEINA",
       "price": 9.5,
-      "restaurantId": "drogaraia"
+      "drugstoreId": "drogaraia"
     },
     {
       "id": "DIPIRONA",
@@ -44,7 +44,7 @@
       "name": "DIPIRONA SÓDICA 500MG",
       "description": "10 Comprimidos",
       "price": 15.9,
-      "restaurantId": "drogaraia"
+      "drugstoreId": "drogaraia"
     },
     {
       "id": "CIMEGRIPE",
@@ -52,7 +52,7 @@
       "name": "CIMEGRIPE",
       "description": "20 Cápsulas. PARACETAMOL,MALEATO DE CLORFENAMINA,CLORIDRATO DE FENILEFRINA",
       "price": 8.7,
-      "restaurantId": "drogasil"
+      "drugstoreId": "drogasil"
     },
     {
       "id": "BENEGRIP",
@@ -60,7 +60,7 @@
       "name": "BENEGRIP",
       "description": "20 Comprimidos. DIPIRONA SODICA,MALEATO DE CLORFENIRAMINA,CAFEINA",
       "price": 9.5,
-      "restaurantId": "drogasil"
+      "drugstoreId": "drogasil"
     },
     {
       "id": "DIPIRONA",
@@ -68,7 +68,7 @@
       "name": "DIPIRONA SÓDICA 500MG",
       "description": "10 Comprimidos",
       "price": 15.9,
-      "restaurantId": "drogasil"
+      "drugstoreId": "drogasil"
     }
   ],
   "reviews": [
@@ -77,77 +77,77 @@
       "date": "2017-01-23T18:25:43",
       "rating": 4.5,
       "comments": "Tudo muito bom, entrega no tempo certo",
-      "restaurantId": "drogaraia"
+      "drugstoreId": "drogaraia"
     },
     {
       "name": "Aline",
       "date": "2016-12-12T18:25:43",
       "rating": 3,
       "comments": "NÃO recomendo.",
-      "restaurantId": "drogaraia"
+      "drugstoreId": "drogaraia"
     },
     {
       "name": "Renata",
       "date": "2016-12-12T18:25:43",
       "rating": 2,
       "comments": "Não foi muito agradável",
-      "restaurantId": "drogaraia"
+      "drugstoreId": "drogaraia"
     },
     {
       "name": "Renata",
       "date": "2016-12-12T18:25:43",
       "rating": 5,
       "comments": "Nunca deixou na mão, entregou super rápido.",
-      "restaurantId": "drogaraia"
+      "drugstoreId": "drogaraia"
     },
     {
       "name": "Daniela",
       "date": "2017-01-23T18:25:43",
       "rating": 4,
       "comments": "Muito bom! Já pedi diversas vezes sempre bom!",
-      "restaurantId": "drogaraia"
+      "drugstoreId": "drogaraia"
     },
     {
       "name": "Eric",
       "date": "2017-01-23T18:25:43",
       "rating": 4.5,
       "comments": "Excelente opção! Recomendo!",
-      "restaurantId": "drogasil"
+      "drugstoreId": "drogasil"
     },
     {
       "name": "Amanda",
       "date": "2017-02-02T18:25:43",
       "rating": 2.5,
       "comments": "Demorou muito!",
-      "restaurantId": "drogasil"
+      "drugstoreId": "drogasil"
     },
     {
       "name": "Carla",
       "date": "2016-12-12T18:25:43",
       "rating": 4.8,
       "comments": "Tudo perfeito. Entrega, embalagem.. Resultado? Melhor custo beneficio",
-      "restaurantId": "drogasil"
+      "drugstoreId": "drogasil"
     },
     {
       "name": "Rodrigo",
       "date": "2016-12-12T18:25:43",
       "rating": 4,
       "comments": "Muito rápida a entrega, mas é caro.",
-      "restaurantId": "drogasil"
+      "drugstoreId": "drogasil"
     },
     {
       "name": "André",
       "date": "2016-12-12T18:25:43",
       "rating": 4.5,
       "comments": "Excelente como sempre!",
-      "restaurantId": "coffee-corner"
+      "drugstoreId": "coffee-corner"
     },
     {
       "name": "João",
       "date": "2017-01-23T18:25:43",
       "rating": 5,
       "comments": "Excelente. Fiz o pedido com outro endereço e quando vi o erro liguei avisando. O motoqueiro cortou a cidade todinha e a remédio chegou. Estou sempre pedindo e recomendando",
-      "restaurantId": "drogasil"
+      "drugstoreId": "drogasil"
     }
   ],
   "orders": [
